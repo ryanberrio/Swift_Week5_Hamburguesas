@@ -8,7 +8,7 @@
 
 /*
 Review Criteria
-1. ¿El playground se encuentra en GitHub?
+ok- 1. ¿El playground se encuentra en GitHub?
 ok- 2. ¿El playground está hecho en Swift?
 ok- 3. ¿Se incluye en el proyecto el archivo: Datos.swift?
 ok- 4. ¿Dentro del archivo Datos.swift se define la clase: ColeccionDePaises con la funcionalidad definida?
