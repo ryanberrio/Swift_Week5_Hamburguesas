@@ -12,6 +12,7 @@
 		894CFD571C3FE2220049BEFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 894CFD551C3FE2220049BEFE /* Main.storyboard */; };
 		894CFD591C3FE2220049BEFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 894CFD581C3FE2220049BEFE /* Assets.xcassets */; };
 		894CFD5C1C3FE2220049BEFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 894CFD5A1C3FE2220049BEFE /* LaunchScreen.storyboard */; };
+		894CFD641C3FE2520049BEFE /* Datos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894CFD631C3FE2520049BEFE /* Datos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		894CFD581C3FE2220049BEFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		894CFD5B1C3FE2220049BEFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		894CFD5D1C3FE2220049BEFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		894CFD631C3FE2520049BEFE /* Datos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Datos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				894CFD581C3FE2220049BEFE /* Assets.xcassets */,
 				894CFD5A1C3FE2220049BEFE /* LaunchScreen.storyboard */,
 				894CFD5D1C3FE2220049BEFE /* Info.plist */,
+				894CFD631C3FE2520049BEFE /* Datos.swift */,
 			);
 			path = Hamburguesas;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			files = (
 				894CFD541C3FE2220049BEFE /* ViewController.swift in Sources */,
 				894CFD521C3FE2220049BEFE /* AppDelegate.swift in Sources */,
+				894CFD641C3FE2520049BEFE /* Datos.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +255,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ryanberrio.Hamburguesas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -262,6 +267,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ryanberrio.Hamburguesas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
